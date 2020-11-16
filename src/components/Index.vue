@@ -247,7 +247,7 @@ export default {
     .login {
         display: inline-block;
         float: right;
-        width: 50px;
+        width: 51px;
         height: 30px;
         margin-right: 60px;
         margin-top:13px;
