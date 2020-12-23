@@ -11,7 +11,7 @@ async function fetchData(url, method, param) {
         // axios.defaults.headers.common['sign'] = res.data.sign
         resolve(res.data);
       } else if (res.data.code === -1) {
-        alert(res.data.msg);
+        reject(res.data.msg);
       } else {
         alert(res.data.msg);
       }
